@@ -57,7 +57,7 @@ async def async_setup(hass, config):
         return False
 
     #Create client
-    client = MideaClient(username, password, sha256password)
+    client = MideaClient(username, password, sha256password, debug=False, verbose=False, logFile="", cacheTimeInSeconds=60)
 
     #Log-in to the Midea cloud Web Service and get the list of configured Midea/Inventor appliances for the user.
     _LOGGER.info("midea_dehumi: logging into Midea API Web Service...")
