@@ -1,10 +1,10 @@
 {
   "domain": "midea_dehumidifier",
   "name": "EVA II PRO WiFi Midea Inventor Dehumidifier custom integration V2",
-  "documentation": "https://github.com/barban-dev/homeassistant-midea-dehumidifier/blob/master/README.md",
-  "issue_tracker": "https://github.com/barban-dev/homeassistant-midea-dehumidifier/issues",
+  "documentation": "https://github.com/dellorogiulio/homeassistant-midea-dehumidifier/blob/master/README.md",
+  "issue_tracker": "https://github.com/dellorogiulio/homeassistant-midea-dehumidifier/issues",
   "dependencies": [],
   "codeowners": ["@barban-dev", "dellorogiulio"],
-  "requirements": ["midea-inventor-lib==1.0.4"],
+  "requirements": ["midea-python-client==1.0.1"],
   "version": "2.0.1"
 }

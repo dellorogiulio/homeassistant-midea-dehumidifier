@@ -43,7 +43,7 @@ async def async_setup(hass, config):
         _LOGGER.error("midea_dehumi: cannot find midea_dehumi platform on configuration.yaml")
         return False
 
-    from midea_inventor_lib import MideaClient
+    from midea_python_client import MideaClient
     	
     username = config[DOMAIN].get(CONF_USERNAME)
     password = config[DOMAIN].get(CONF_PASSWORD)
