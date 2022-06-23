@@ -1,5 +1,5 @@
 {
-   "name": "EVA II PRO WiFi Midea Inventor Dehumidifier custom integration",
+   "name": "EVA II PRO WiFi Midea Inventor Dehumidifier custom integration V2",
    "domains": ["humidifier", "sensor"],
    "codeowners": ["barban-dev", "dellorogiulio"],
    "documentation": "https://github.com/dellorogiulio/homeassistant-midea-dehumidifier/blob/master/README.md",
