@@ -5,6 +5,6 @@
   "issue_tracker": "https://github.com/dellorogiulio/homeassistant-midea-dehumidifier/issues",
   "dependencies": [],
   "codeowners": ["@barban-dev", "dellorogiulio"],
-  "requirements": ["midea-python-client==1.0.1"],
+  "requirements": ["midea-python-client==1.0.2"],
   "version": "2.0.2"
 }
